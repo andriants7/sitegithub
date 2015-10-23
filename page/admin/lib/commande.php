@@ -1,0 +1,181 @@
+<?php
+
+
+
+class Commande
+{
+        protected $id,
+            $vitrine,
+            $photos,
+            $interface,
+            $connexion,
+            $bref,
+             $nom,
+            $mail,
+            $tel;
+
+    public function __construct($valeurs = array())
+    {
+        if (!empty($valeurs)) //
+            $this->hydrate($valeurs);
+    }
+
+    public function hydrate($donnees)
+    {
+        foreach ($donnees as $attribut => $valeur)
+        {
+            $methode = 'set'.str_replace(' ', '', ucwords(str_replace('_', ' ', $attribut)));
+
+            if (is_callable(array($this, $methode)))
+            {
+                $this->$methode($valeur);
+            }
+        }
+    }
+
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getVitrine()
+    {
+        return $this->vitrine;
+    }
+
+    /**
+     * @param mixed $vitrine
+     */
+    public function setVitrine($vitrine)
+    {
+        $this->vitrine = $vitrine;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPhotos()
+    {
+        return $this->photos;
+    }
+
+    /**
+     * @param mixed $photos
+     */
+    public function setPhotos($photos)
+    {
+        $this->photos = $photos;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getInterface()
+    {
+        return $this->interface;
+    }
+
+    /**
+     * @param mixed $interface
+     */
+    public function setInterface($interface)
+    {
+        $this->interface = $interface;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getConnexion()
+    {
+        return $this->connexion;
+    }
+
+    /**
+     * @param mixed $connexion
+     */
+    public function setConnexion($connexion)
+    {
+        $this->connexion = $connexion;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getBref()
+    {
+        return $this->bref;
+    }
+
+    /**
+     * @param mixed $bref
+     */
+    public function setBref($bref)
+    {
+        $this->bref = $bref;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getNom()
+    {
+        return $this->nom;
+    }
+
+    /**
+     * @param mixed $nom
+     */
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMail()
+    {
+        return $this->mail;
+    }
+
+    /**
+     * @param mixed $mail
+     */
+    public function setMail($mail)
+    {
+        $this->mail = $mail;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTel()
+    {
+        return $this->tel;
+    }
+
+    /**
+     * @param mixed $tel
+     */
+    public function setTel($tel)
+    {
+        $this->tel = $tel;
+    }
+
+}

@@ -1,0 +1,41 @@
+#commande
+{
+    margin-top: 35px;
+    min-height: 600px;
+}
+#mobile
+{
+    margin-top: 80px;
+    min-height: 600px;
+}
+#web{
+    min-height: 600px;
+}
+.conteneur{
+    margin-top: 70px;
+}
+#commandeTitre{
+    margin-top: 80px;
+    min-height: 600px;
+    text-align: justify;
+}
+#commandeWebTitre{
+    margin-top: 80px;
+    min-height: 600px;
+    text-align: justify;
+}
+#commandeWebTitreBloc{
+    padding-top: 100px;
+}
+#mobileTitre{
+    margin-top: 80px;
+}
+#webBloc{
+    margin-top: 300px;
+}
+#separateur{
+    height: 70px;
+}
+.nom{
+    display: inline-block;
+}

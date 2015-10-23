@@ -1,0 +1,497 @@
+body{
+    padding-top: 80px;
+
+    text-align: center;
+}
+.active{
+    background-color: #21A4FF;
+}
+#acceuil{
+
+
+}
+.contenu{
+    padding:7px;
+}
+.galllery-img{
+   align-content: center;
+}
+.gallery-wrapper
+{
+    background: #ffffff;
+    margin-top: 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    padding: 7px;
+}
+.gallery-wrapper:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #21A4FF;
+}
+.gallery-des
+{
+    padding: 0 20px 14px 20px;
+}
+.gallery-img {
+    margin: 0 auto;
+    max-height: 100px;
+}
+.flexslider{
+
+
+}
+#actualites{
+    background-color: mintcream;
+    min-height: 650px;
+}
+.actu{
+    background-color: mintcream;
+    min-height: 600px;
+}
+.revenir{
+    margin-bottom: 0px;
+    margin-right: 75px;
+}
+.contenu{
+    min-height: 250px;
+    background-color: #FFFFFF;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    text-align: left;
+}
+.slides{
+   /* padding-top: 10px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;*/
+    padding: 0px;
+    width: 100%;
+    min-height: 650px;
+}
+.slide1{
+    background-image: url("../img/fond/FOND1.jpg");
+    min-height: 650px;
+    opacity: 0.5;
+}
+.slide2{
+    background-image: url("../img/fond/FOND2.jpg");
+    min-height: 650px;
+}
+.slide3{
+    background-image: url("../img/fond/FOND3.jpg");
+    min-height: 650px;
+}
+.slides h2{
+    color: #ffffea;
+    font-size: 50px;
+}
+
+.separateur{
+    width: 40%;
+    margin: auto;
+    color: #0077ff;
+
+
+}
+.serviceit{
+   min-height:120px;
+}
+.serviceit .service-icon{
+    height: 120px;
+}
+.service-item{
+    background-color: #fbf5f8;
+    min-height: 400px;
+    min-width: 130px;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 12px;
+    padding-top: 30px;
+}
+.content-section#services {
+    margin-top: 0px;
+}
+#noservice{
+    color:White;
+    margin:20px;
+}
+
+.service-item {
+    position: relative;
+    color: #21A4FF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-item a {
+    color: #ffff66;
+}
+
+.service-item a:hover {
+    color: black;
+}
+
+.service-item .service-icon {
+    font-size: 3em;
+    padding: 110px 0;
+}
+.service-item .service-content {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.service-item .service-content .inner-service {
+    padding: 20px;
+}
+.service-item .service-content h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #21A4FF;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}
+.service-item:hover .service-icon {
+    opacity: 0;
+    visibility: hidden;
+}
+.service-item:hover .service-content {
+    opacity: 1;
+    visibility: visible;
+}
+.click{
+   padding-bottom: 5px;
+}
+
+.img-responsive{
+    max-height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-thumbnail:hover{
+    background-color: #21A4FF;
+    transform:scale(1.1);
+    z-index: 8;
+}
+#navigation{
+    border-bottom: solid 3px;
+    border-bottom-color: #21A4FF;
+
+}
+.navbar-brand{
+    height: 60px;
+    width: 180px;
+    padding:5px;
+}
+.lettre{
+    height:40px !important;
+    width:110px !important;
+    font-size: 9px;
+}
+.navbar{
+    box-shadow: #150900;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+.nav{
+    padding:10px;
+    padding-left: 45px;
+
+}
+.nav li{
+    border-top: solid #FFFFFF 7px;
+    margin-left: 5px;
+
+
+}
+.nav  .active>a{
+    background-color: #d5ecf7 !important;
+
+}
+.nav .active{
+    border-top: solid #21A4FF 7px;
+    background: repeat-x url("../img/banner_bg.jpg") 0 -94px ;
+    transition-duration: 1s;
+}
+.navbar-btn{
+    margin-top: 12px;
+    padding:5px;
+    border-radius: 7px;
+}
+.texteAcceuil{
+    margin-top: 200px;
+}
+#gamme{
+    background: url(../img/fond/FOND1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding-top: 70px;
+    text-align: left;
+    min-height:700px;
+}
+.feature2{
+    padding-top: 70px;
+    height: 370px;
+}
+#gammeContent{
+    margin-right: 20px;
+}
+#mission
+{
+    min-height: 650px;
+    padding: 80px 0 60px 0;
+}
+#logonoir{
+    width: 15%;
+    height: 15%;
+}
+#ipad{
+    height: 220px;
+    padding-left: 50px;
+}
+#mission h3
+{
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 1px !important;
+    padding-bottom: 30px;
+}
+
+#mission .media
+{
+    padding: 40px 0 10px 0;
+}
+.navigTarget{
+
+}
+#mission .media .fa
+{
+    background: #FFFFFF;
+    border-radius:   60%;
+    color: #0088CC;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    padding-right: 0;
+    border: solid #21A4FF;
+
+}
+
+#mission .media .media-heading
+{
+    color: #21A4FF;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+}
+#mission
+{
+    font-weight: 400;
+}
+#equipe{
+    background-color: #c1e1e6;
+
+}
+#equipeContent{
+    background-color:#e0e6ff;
+    margin-right: 20px;
+    border-radius: 50%;
+
+    height: 500px;
+}
+.modal-body{
+    background-color: #cfecff;
+}
+
+.lequipe{
+    height: 100%;
+}
+.bouton{
+   margin-top: 10px;
+}
+.jumbotron{
+    border-radius: 12px 12px 12px 12px;
+}
+.modal-dialog{
+    width: 900px;
+}
+#imageAppli{
+    padding-top:70%;
+}
+
+#pied{
+    padding: 9px;
+    background-color: #a2a2a2;
+
+
+}
+#contactform input:hover{
+    background-color: #ccd6e6;
+}
+#contactform input:focus{
+    background-color: #ccd6e6;
+}
+#contactform textarea:hover{
+    background-color: #ccd6e6;
+}
+#contactform textarea:focus{
+    background-color: #ccd6e6;
+}
+#contactform #envoiMail:hover{
+    background-color: #106a8c;
+}
+.content-section {
+    margin-top: 80px;
+    padding-top: 60px;
+    margin-bottom: 25px;
+}
+.sociaux{
+    background-color: #01011A;
+}
+ul
+{
+    margin-bottom: 0;
+}
+#backgr{
+    display: inline-block;
+    background-color: #01011A;
+}
+.signature{
+    color: #21A4FF;
+}
+
+#contact{
+    background-color: #d4dee6;
+    min-height: 600px;
+
+}
+.contact-label{
+   color: #31b0d5;
+    float: left;
+}
+#sociauBouton{
+    padding-bottom: 0px;
+   margin-left: auto;
+    margin-right: auto;
+}
+.resulta{
+    width: 100px;
+}
+#devisAppli .modal-body,#devisSite .modal-body {
+   max-height: 550px;
+    overflow: scroll;
+}
+
+
+.flexslider {
+    margin: 0 0 60px;
+    background: #fff;
+    padding: 0;
+    position: relative;
+    zoom: 1;
+    height: 600px;
+    background-color: transparent;
+    overflow: hidden;
+    margin: 0;
+}
+.flexslider .slides {
+
+    zoom: 1;
+}
+.flexslider .slides img {
+    width: 100%;
+    min-width: 648px;
+    min-height: 270px;
+    display: block;
+}
+.flexslider .slides > li {
+    display: none;
+    padding: 0;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+}
+.flexslider img {
+    position: relative;
+    width: 100%;
+}
+.slider-caption {
+    color:white;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    z-index: 7;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.contact-info {
+    margin-top: 40px;
+}
+
+.contact-form input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 120px;
+}
+.tableau th{
+    padding: 7px;
+}
+.tableau td{
+    padding: 7px;
+}
+.contact-form .mainBtn {
+    margin-top: 15px;
+    color: white;
+    background-color: #21A4FF;
+    text-transform: uppercase;
+    border: 0;
+    padding: 7px;
+    border-radius: 7px;
+}
+.petit-navbar{
+    width:80%;
+    margin-top: 4%;
+}
+.btn-primary{
+    background-color: #21A4FF;
+}
+.btn-info{
+     background-color: #21A4FF;
+ }
