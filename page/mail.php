@@ -31,7 +31,7 @@ echo $file1;
 
 
 //$to = 'recrutement@my-it-box.com';
-$to = 'noments77@gmail.com';
+$to = 'noments77@gmail.com, noments77@yahoo.fr';
 // Subject
 $subject = $objet;
 
