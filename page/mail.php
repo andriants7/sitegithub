@@ -40,9 +40,9 @@ $boundary = md5(uniqid(microtime(), TRUE));
 
 // Headers
 $headers = 'From: '.$nom.' <'.$expediteur.'>'."\r\n\r\n";
-$headers .= 'Mime-Version: 1.0'."\r\n";
+/*$headers .= 'Mime-Version: 1.0'."\r\n";
 $headers .= 'Content-Type: multipart/mixed;boundary='.$boundary."\r\n";
-$headers .= "\r\n";
+$headers .= "\r\n";*/
 
 // Message
 //$msg = 'Message'.$message."\r\n\r\n";
